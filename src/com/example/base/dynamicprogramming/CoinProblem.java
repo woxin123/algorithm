@@ -14,6 +14,7 @@ package com.example.base.dynamicprogramming;
  * f(4)=f(3)+1 f(5)=1
  * 5 从上往下分析问题，从下往上解决问题。
  *
+ * @author mengchen
  * @time 18-10-9 上午11:57
  */
 public class CoinProblem {
