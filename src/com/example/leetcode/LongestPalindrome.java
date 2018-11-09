@@ -8,7 +8,7 @@ public class LongestPalindrome {
 
     public static void main(String[] args) {
         LongestPalindrome l = new LongestPalindrome();
-        System.out.println(l.longestPalindrome("ccabccbaaa"));
+        System.out.println(l.longestPalindrome("ccc"));
     }
 
     public String longestPalindrome(String s) {
@@ -28,7 +28,7 @@ public class LongestPalindrome {
                 // 下面的是比较成功的情况
                 // 有两种情况 temp1 == temp2 abcba
                 // temp1 > temp2 abccba
-                if (temp1 >= temp2 && maxLength < j - i) {
+                if (temp1 >= temp2 && maxLength < j - i + 1) {
                     start = i;
                     maxLength = j - i + 1;
                 }
@@ -36,8 +36,10 @@ public class LongestPalindrome {
         }
         if (maxLength > 0) {
             return s.substring(start, start + maxLength);
+        } else {
+            return s.substring(0, 1);
         }
-        return null;
+
     }
 
 }

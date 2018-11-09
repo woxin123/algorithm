@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d0ec535-9f8e-4a91-a5cc-1b57771d90f1" name="默认的" comment="链表 两数相加">
-      <change afterPath="$PROJECT_DIR$/src/com/example/base/tree/red_black_tree/RBTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/leetcode/LongestPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/48323382-8cab-428f-88d1-b40e6af3b3c8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/48323382-8cab-428f-88d1-b40e6af3b3c8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/leetcode/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/leetcode/LongestPalindrome.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,8 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/LongestPalindrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="-361">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -529,7 +525,7 @@
       <workItem from="1541330533468" duration="604000" />
       <workItem from="1541650130816" duration="9701000" />
       <workItem from="1541738344665" duration="62000" />
-      <workItem from="1541778052695" duration="2385000" />
+      <workItem from="1541778052695" duration="2902000" />
     </task>
     <task id="LOCAL-00001" summary="二进制中的1">
       <created>1524204083827</created>
@@ -661,10 +657,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146617000" />
+    <option name="totallyTimeSpent" value="147134000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -682,7 +679,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2951096" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4688027" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32597622" />
       <window_info anchor="bottom" id="消息" order="10" weight="0.32798573" />
       <window_info anchor="bottom" id="运行" order="11" visible="true" weight="0.41112828" />
@@ -1196,8 +1193,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/LongestPalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="-361">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
