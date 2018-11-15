@@ -8,9 +8,14 @@ public class LongestPalindrome {
 
     public static void main(String[] args) {
         LongestPalindrome l = new LongestPalindrome();
-        System.out.println(l.longestPalindrome("ccc"));
+        System.out.println(l.longestPalindrome2("ccc"));
     }
 
+    /**
+     * 暴力法
+     * @param s
+     * @return
+     */
     public String longestPalindrome(String s) {
 
         if (s.length() <= 1) {
@@ -39,7 +44,45 @@ public class LongestPalindrome {
         } else {
             return s.substring(0, 1);
         }
-
     }
+
+    public String longestPalindrome2(String s) {
+        final int length = s.length();
+        int maxLength = 0;
+        int start = 0;
+        boolean[][] p = new boolean[50][50];
+        for (int i = 0; i < p.length; i++) {
+            for (int j = 0; j < p.length; j++) {
+                p[i][j] = false;
+            }
+        }
+        for (int i = 0; i < length; i++) {
+            p[i][i] = true;
+            if (i < length - 1 && s.charAt(i) == s.charAt(i + 1)) {
+                p[i][i + 1] = true;
+                start = i;
+                maxLength = 2;
+            }
+        }
+
+        // 子串的长度
+        for (int len = 3; len <= length; len++) {
+            // 子串起始地址
+            for (int i = 0; i <= length - len; i++) {
+                // 子串结束地址
+                int j = i + len - 1;
+                if (p[i + 1][j - 1] && s.charAt(i) == s.charAt(j)) {
+                    p[i][i] = true;
+                    maxLength = len;
+                    start = i;
+                }
+            }
+        }
+        if (maxLength >= 2) {
+            return s.substring(start, start + maxLength);
+        }
+        return null;
+    }
+
 
 }
