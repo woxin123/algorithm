@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d0ec535-9f8e-4a91-a5cc-1b57771d90f1" name="默认的" comment="链表 两数相加" />
+    <list default="true" id="2d0ec535-9f8e-4a91-a5cc-1b57771d90f1" name="默认的" comment="链表 两数相加">
+      <change afterPath="$PROJECT_DIR$/src/com/example/leetcode/RomanToInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,12 +90,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="78">
-                <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <first_editor relative-caret-position="35">
+                <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -101,10 +104,19 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/RomanToInt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/IntToRom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
+            <state relative-caret-position="315">
               <caret line="9" column="21" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -157,7 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/Main/地下迷宫.java" />
         <option value="$PROJECT_DIR$/src/com/example/Main/UndergroundMaze.java" />
         <option value="$PROJECT_DIR$/src/com/example/剑指offer/ReplaceSpace.java" />
         <option value="$PROJECT_DIR$/src/com/example/剑指offer/MatrixCoverage.java" />
@@ -208,6 +219,7 @@
         <option value="$PROJECT_DIR$/src/com/example/leetcode/MaxArea.java" />
         <option value="$PROJECT_DIR$/src/com/example/leetcode/IntToRom.java" />
         <option value="$PROJECT_DIR$/src/com/example/leetcode/README.md" />
+        <option value="$PROJECT_DIR$/src/com/example/leetcode/RomanToInt.java" />
       </list>
     </option>
   </component>
@@ -218,9 +230,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="25" />
-    <option name="width" value="1360" />
-    <option name="height" value="744" />
+    <option name="x" value="1360" />
+    <option name="width" value="1600" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -243,7 +255,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -290,6 +301,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -317,23 +329,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IntToRom">
+  <component name="RunManager" selected="Application.RomanToInt">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConvertStringZ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.leetcode.ConvertStringZ" />
-      <module name="algorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -368,6 +366,20 @@
     </configuration>
     <configuration name="MaxArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.leetcode.MaxArea" />
+      <module name="algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RomanToInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.leetcode.RomanToInt" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -415,19 +427,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ConvertStringZ" />
       <item itemvalue="Application.IsPalinderome" />
       <item itemvalue="Application.TwoSum" />
       <item itemvalue="Application.MaxArea" />
       <item itemvalue="Application.IntToRom" />
+      <item itemvalue="Application.RomanToInt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RomanToInt" />
         <item itemvalue="Application.IntToRom" />
         <item itemvalue="Application.MaxArea" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.IsPalinderome" />
-        <item itemvalue="Application.ConvertStringZ" />
       </list>
     </recent_temporary>
   </component>
@@ -496,7 +508,9 @@
       <workItem from="1542433543134" duration="4200000" />
       <workItem from="1542443921070" duration="751000" />
       <workItem from="1542511015430" duration="1090000" />
-      <workItem from="1542624642203" duration="3529000" />
+      <workItem from="1542624642203" duration="4694000" />
+      <workItem from="1542684922611" duration="605000" />
+      <workItem from="1542696988929" duration="1331000" />
     </task>
     <task id="LOCAL-00001" summary="二进制中的1">
       <created>1524204083827</created>
@@ -628,12 +642,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198377000" />
+    <option name="totallyTimeSpent" value="201478000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="26" width="1360" height="701" extended-state="6" />
+    <frame x="1360" y="0" width="1600" height="900" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28603944" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30487806" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -643,13 +657,13 @@
       <window_info id="设计师" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993573" weight="0.57009345" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.49532712" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993573" weight="0.32123655" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.49462366" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50064266" side_tool="true" weight="0.45406124" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4993573" visible="true" weight="0.3084112" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4993573" weight="0.28494623" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.052336447" />
       <window_info anchor="bottom" id="消息" order="10" weight="0.32798573" />
       <window_info anchor="bottom" id="运行" order="11" visible="true" weight="0.41112828" />
@@ -657,7 +671,6 @@
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="调试" order="14" weight="0.44976816" />
       <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32852808" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -670,6 +683,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Maven" order="10" weight="0.32969153" />
       <window_info anchor="right" id="PlantUML" order="11" />
+      <window_info anchor="right" id="Coverage" order="12" side_tool="true" weight="0.32852808" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" weight="0.28419453" />
@@ -808,6 +822,18 @@
           <properties />
           <option name="timeStamp" value="31" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/example/leetcode/RomanToInt.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/example/leetcode/RomanToInt.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -838,17 +864,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Comparators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="51" column="31" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="31" />
-          <folding>
-            <element signature="e#937#938#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1228,6 +1243,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/IntToRom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -1240,25 +1265,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/IntToRom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="78">
-            <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <first_editor relative-caret-position="35">
+            <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/RomanToInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
