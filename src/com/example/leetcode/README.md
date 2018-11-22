@@ -8,3 +8,4 @@
 |[盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/description/)|[题解](https://leetcode-cn.com/problems/container-with-most-water/solution/)|MaxArea|
 |[整数转罗马数字](https://leetcode-cn.com/submissions/detail/9538760/)|无|IntToRom|2018-11-19|
 |[罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/description/)|无|RomanToInt|2018-11-20|
+|[三数之和](https://leetcode-cn.com/problems/3sum/description/)|[题解](https://blog.csdn.net/MebiuW/article/details/50918450)|ThreeSum|2018-11-22|
