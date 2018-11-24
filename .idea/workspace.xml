@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d0ec535-9f8e-4a91-a5cc-1b57771d90f1" name="默认的" comment="链表 两数相加">
-      <change afterPath="$PROJECT_DIR$/src/com/example/leetcode/ThreeSumClosest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/leetcode/LetterCombinations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/leetcode/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/leetcode/README.md" afterDir="false" />
     </list>
@@ -69,7 +68,16 @@
         <entry file="file://$PROJECT_DIR$/src/com/example/base/sequencetable/SingleLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="54" column="7" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/LetterCombinations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="11" column="37" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -77,7 +85,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/ThreeSumClosest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
+            <state relative-caret-position="595">
               <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
             </state>
           </provider>
@@ -87,8 +95,8 @@
         <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="385">
-                <caret line="11" column="101" lean-forward="true" selection-start-line="11" selection-start-column="101" selection-end-line="11" selection-end-column="101" />
+              <first_editor relative-caret-position="169">
+                <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -98,9 +106,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/base/sort/HeapSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="25" column="33" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/ThreeSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-261">
+            <state relative-caret-position="525">
               <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -139,7 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/剑指offer/Binary1Number.java" />
         <option value="$PROJECT_DIR$/src/com/example/剑指offer/ReConstructBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/com/example/剑指offer/DoublePower.java" />
         <option value="$PROJECT_DIR$/src/com/example/剑指offer/OddArray.java" />
@@ -189,6 +208,7 @@
         <option value="$PROJECT_DIR$/src/com/example/leetcode/ThreeSum.java" />
         <option value="$PROJECT_DIR$/src/com/example/base/sequencetable/SingleLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/example/leetcode/ThreeSumClosest.java" />
+        <option value="$PROJECT_DIR$/src/com/example/leetcode/LetterCombinations.java" />
         <option value="$PROJECT_DIR$/src/com/example/leetcode/README.md" />
       </list>
     </option>
@@ -200,10 +220,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="45" />
+    <option name="x" value="-113" />
     <option name="y" value="26" />
-    <option name="width" value="1315" />
-    <option name="height" value="742" />
+    <option name="width" value="986" />
+    <option name="height" value="675" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -274,6 +294,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -290,6 +319,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539342825415" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -309,15 +339,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreeSumClosest">
+  <component name="RunManager" selected="Application.LetterCombinations">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntToRom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.leetcode.IntToRom" />
+    <configuration name="LetterCombinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.leetcode.LetterCombinations" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -407,19 +437,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.IntToRom" />
       <item itemvalue="Application.RomanToInt" />
       <item itemvalue="Application.ThreeSum" />
       <item itemvalue="Application.SingleLinkedList" />
       <item itemvalue="Application.ThreeSumClosest" />
+      <item itemvalue="Application.LetterCombinations" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LetterCombinations" />
         <item itemvalue="Application.ThreeSumClosest" />
         <item itemvalue="Application.SingleLinkedList" />
         <item itemvalue="Application.ThreeSum" />
         <item itemvalue="Application.RomanToInt" />
-        <item itemvalue="Application.IntToRom" />
       </list>
     </recent_temporary>
   </component>
@@ -494,7 +524,8 @@
       <workItem from="1542723633980" duration="73000" />
       <workItem from="1542877214276" duration="6591000" />
       <workItem from="1542895132410" duration="51000" />
-      <workItem from="1542965999303" duration="3305000" />
+      <workItem from="1542965999303" duration="4381000" />
+      <workItem from="1543028749364" duration="4346000" />
     </task>
     <task id="LOCAL-00001" summary="二进制中的1">
       <created>1524204083827</created>
@@ -626,13 +657,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211785000" />
+    <option name="totallyTimeSpent" value="217207000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="26" width="1315" height="742" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.18853103" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23487824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -642,13 +673,13 @@
       <window_info id="设计师" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987163" visible="true" weight="0.04778157" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44880545" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987163" visible="true" weight="0.27133107" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40784982" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5012837" side_tool="true" weight="0.28494623" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4987163" weight="0.28494623" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4987163" weight="0.28327644" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.05107527" />
       <window_info anchor="bottom" id="消息" order="10" weight="0.32798573" />
       <window_info anchor="bottom" id="运行" order="11" visible="true" weight="0.41112828" />
@@ -788,12 +819,6 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/example/base/sort/HeapSort.java</url>
-          <line>37</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/example/base/dynamicprogramming/过河卒.java</url>
           <line>75</line>
           <properties />
@@ -895,7 +920,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/base/dynamicprogramming/乘积最大.java" />
     <entry file="file://$PROJECT_DIR$/src/com/example/剑指offer/MinKNum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="490">
@@ -986,16 +1010,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30450">
           <caret line="916" column="68" selection-start-line="916" selection-start-column="68" selection-end-line="916" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/base/sort/HeapSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="25" column="33" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1273,13 +1287,30 @@
     <entry file="file://$PROJECT_DIR$/src/com/example/base/sequencetable/SingleLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="54" column="7" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/ThreeSumClosest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/base/sort/HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/ThreeSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-261">
+        <state relative-caret-position="525">
           <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1287,18 +1318,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/ThreeSumClosest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/LetterCombinations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="186">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="385">
-            <caret line="11" column="101" lean-forward="true" selection-start-line="11" selection-start-column="101" selection-end-line="11" selection-end-column="101" />
+          <first_editor relative-caret-position="169">
+            <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
