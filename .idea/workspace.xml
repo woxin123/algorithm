@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d0ec535-9f8e-4a91-a5cc-1b57771d90f1" name="默认的" comment="链表 两数相加">
-      <change afterPath="$PROJECT_DIR$/src/com/example/leetcode/LetterCombinations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/leetcode/FourSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/leetcode/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/leetcode/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/base/sequencetable/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/base/sequencetable/SingleLinkedList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,64 +64,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/base/sequencetable/SingleLinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/LetterCombinations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="11" column="37" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/ThreeSumClosest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="169">
-                <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/base/sort/HeapSort.java">
+        <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/FourSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="25" column="33" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/ThreeSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            <state relative-caret-position="840">
+              <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,6 +95,8 @@
       <find>toArray</find>
       <find>add</find>
       <find>put</find>
+      <find>RESIZE_STAMP_BITS</find>
+      <find>Concurrent</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -159,7 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/剑指offer/ReConstructBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/com/example/剑指offer/DoublePower.java" />
         <option value="$PROJECT_DIR$/src/com/example/剑指offer/OddArray.java" />
         <option value="$PROJECT_DIR$/src/com/example/剑指offer/ListTailToK.java" />
@@ -206,10 +154,11 @@
         <option value="$PROJECT_DIR$/src/com/example/leetcode/IntToRom.java" />
         <option value="$PROJECT_DIR$/src/com/example/leetcode/RomanToInt.java" />
         <option value="$PROJECT_DIR$/src/com/example/leetcode/ThreeSum.java" />
-        <option value="$PROJECT_DIR$/src/com/example/base/sequencetable/SingleLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/example/leetcode/ThreeSumClosest.java" />
         <option value="$PROJECT_DIR$/src/com/example/leetcode/LetterCombinations.java" />
         <option value="$PROJECT_DIR$/src/com/example/leetcode/README.md" />
+        <option value="$PROJECT_DIR$/src/com/example/base/sequencetable/SingleLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com/example/leetcode/FourSum.java" />
       </list>
     </option>
   </component>
@@ -220,9 +169,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-113" />
+    <option name="x" value="305" />
     <option name="y" value="26" />
-    <option name="width" value="986" />
+    <option name="width" value="966" />
     <option name="height" value="675" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -246,6 +195,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -305,12 +256,49 @@
               <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -339,9 +327,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LetterCombinations">
+  <component name="RunManager" selected="Application.FourSum">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FourSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.leetcode.FourSum" />
+      <module name="algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -360,13 +362,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanToInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.leetcode.RomanToInt" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.base.sequencetable.Main" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.leetcode.*" />
+          <option name="PATTERN" value="com.example.base.sequencetable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -381,20 +383,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.base.sequencetable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.leetcode.ThreeSum" />
-      <module name="algorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -437,19 +425,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RomanToInt" />
-      <item itemvalue="Application.ThreeSum" />
       <item itemvalue="Application.SingleLinkedList" />
       <item itemvalue="Application.ThreeSumClosest" />
       <item itemvalue="Application.LetterCombinations" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.FourSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FourSum" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.LetterCombinations" />
         <item itemvalue="Application.ThreeSumClosest" />
         <item itemvalue="Application.SingleLinkedList" />
-        <item itemvalue="Application.ThreeSum" />
-        <item itemvalue="Application.RomanToInt" />
       </list>
     </recent_temporary>
   </component>
@@ -525,7 +513,9 @@
       <workItem from="1542877214276" duration="6591000" />
       <workItem from="1542895132410" duration="51000" />
       <workItem from="1542965999303" duration="4381000" />
-      <workItem from="1543028749364" duration="4346000" />
+      <workItem from="1543028749364" duration="4543000" />
+      <workItem from="1543038485200" duration="12080000" />
+      <workItem from="1543128339791" duration="1433000" />
     </task>
     <task id="LOCAL-00001" summary="二进制中的1">
       <created>1524204083827</created>
@@ -657,13 +647,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217207000" />
+    <option name="totallyTimeSpent" value="230917000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="26" width="1315" height="742" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23487824" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14689709" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -673,14 +663,14 @@
       <window_info id="设计师" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987163" visible="true" weight="0.27133107" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40784982" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987163" weight="0.26962456" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.29180887" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5012837" side_tool="true" weight="0.28494623" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4987163" weight="0.28327644" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.05107527" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4987163" weight="0.0" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3105802" />
       <window_info anchor="bottom" id="消息" order="10" weight="0.32798573" />
       <window_info anchor="bottom" id="运行" order="11" visible="true" weight="0.41112828" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
@@ -891,6 +881,9 @@
           <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
+      <breakpoints-defaults>
+        <breakpoint suspend="THREAD" type="java-line" />
+      </breakpoints-defaults>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -920,54 +913,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/剑指offer/MinKNum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="17" selection-start-line="17" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/剑指offer/MaxSubListSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/base/dynamicprogramming/过河卒.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/base/dynamicprogramming/买卖股票的最佳时机.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/base/dynamicprogramming/JianShengZi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/base/dynamicprogramming/CoinProblem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1610">
@@ -996,13 +941,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18235">
-          <caret line="554" selection-start-line="554" selection-end-line="554" />
         </state>
       </provider>
     </entry>
@@ -1205,20 +1143,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/GenerateParenthesis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="657" selection-start-line="657" selection-end-line="657" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/IsPalinderome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
@@ -1284,10 +1208,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/base/sequencetable.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/example/base/sequencetable/SingleLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/LetterCombinations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        <state relative-caret-position="385">
+          <caret line="11" column="37" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1300,7 +1224,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/base/sort/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
+        <state relative-caret-position="735">
           <caret line="25" column="33" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1308,32 +1232,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/ThreeSum.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/base/sequencetable/SingleLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        <state relative-caret-position="7035">
+          <caret line="209" column="18" selection-start-line="209" selection-start-column="18" selection-end-line="209" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105035">
+          <caret line="3098" selection-start-line="3098" selection-end-line="3098" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#121769#121770#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/LetterCombinations.java">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="11" column="37" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="37" />
+        <state relative-caret-position="455">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31395">
+          <caret line="946" selection-start-line="946" selection-end-line="946" />
+          <folding>
+            <element signature="e#35532#35533#0" expanded="true" />
+            <element signature="e#35824#35825#0" expanded="true" />
+            <element signature="e#35852#35853#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="169">
-            <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <first_editor relative-caret-position="385">
+            <caret line="11" column="101" selection-start-line="11" selection-start-column="101" selection-end-line="11" selection-end-column="101" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+          <folding>
+            <element signature="e#5562#5563#0" expanded="true" />
+            <element signature="e#5614#5615#0" expanded="true" />
+            <element signature="e#17535#17536#0" expanded="true" />
+            <element signature="e#17577#17578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9100">
+          <caret line="305" column="32" selection-start-line="305" selection-start-column="32" selection-end-line="305" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63280">
+          <caret line="1869" column="21" selection-start-line="1869" selection-start-column="21" selection-end-line="1869" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="1011" selection-start-line="1011" selection-end-line="1011" />
+          <folding>
+            <element signature="e#39094#39095#0" expanded="true" />
+            <element signature="e#39146#39147#0" expanded="true" />
+            <element signature="e#44347#44348#0" expanded="true" />
+            <element signature="e#44395#44396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/GenerateParenthesis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-139">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/ThreeSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/FourSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

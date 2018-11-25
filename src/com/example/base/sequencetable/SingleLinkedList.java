@@ -1,7 +1,10 @@
 package com.example.base.sequencetable;
 
+import java.util.concurrent.ConcurrentHashMap;
+
 /**
  * 单链表
+ *
  * @author mengchen
  * @time 18-11-22 下午8:26
  */
@@ -29,6 +32,7 @@ public class SingleLinkedList<T> {
         Node() {
 
         }
+
         Node(T data, Node next) {
             this.data = data;
             this.next = next;
@@ -37,6 +41,7 @@ public class SingleLinkedList<T> {
 
     /**
      * 新增节点
+     *
      * @param item
      */
     public void add(T item) {
@@ -50,6 +55,7 @@ public class SingleLinkedList<T> {
 
     /**
      * 在第i个位置插入data
+     *
      * @param index
      * @param data
      */
@@ -181,5 +187,27 @@ public class SingleLinkedList<T> {
         System.out.println(singleLinkedList.size);
         System.out.println(singleLinkedList);
         System.out.println(System.nanoTime() - start);
+    }
+}
+
+class Main {
+    static ConcurrentHashMap<Integer, String> map = new ConcurrentHashMap<>();
+
+    static int i = 0;
+
+    static class A extends Thread {
+        @Override
+        public void run() {
+            map.put(i, String.valueOf(i));
+        }
+    }
+
+    public static void main(String[] args) {
+        for (int j = 0; j < 50; j++) {
+            map.put(i, String.valueOf(i++));
+        }
+        for (int j = 0; j < 5; j++) {
+            map.put(i, String.valueOf(i++));
+        }
     }
 }
