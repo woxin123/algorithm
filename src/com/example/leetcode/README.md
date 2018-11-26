@@ -12,3 +12,4 @@
 |[最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest/description/)|无|ThreeSumClosest|2018-11-23|
 |[电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/description/)|无|[LetterCombinations](LetterCombinations.java)|2018-11-24|
 |[四数之和](https://leetcode-cn.com/problems/4sum/description/)|无|[FourSum](FourSum.java)|2018-11-25|
+|[有效的括号](https://leetcode-cn.com/problems/valid-parentheses/description/)|[题解](https://leetcode-cn.com/problems/valid-parentheses/solution/)|IsValid(IsValid.java)|2018-11-26|
