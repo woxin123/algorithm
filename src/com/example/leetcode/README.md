@@ -14,3 +14,4 @@
 |[四数之和](https://leetcode-cn.com/problems/4sum/description/)|无|[FourSum](FourSum.java)|2018-11-25|
 |[有效的括号](https://leetcode-cn.com/problems/valid-parentheses/description/)|[题解](https://leetcode-cn.com/problems/valid-parentheses/solution/)|IsValid(IsValid.java)|2018-11-26|
 |[删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/submissions/1)|无|[RemoveNthFromEnd](/RemoveNthFromEnd.java)|2018-11-27|
+|[简化路径](https://leetcode-cn.com/problems/simplify-path/description/)|无|[SimplifyPath](SimplifyPath.java)|2018-11-28|
