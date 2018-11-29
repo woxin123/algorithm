@@ -15,3 +15,12 @@
 |[有效的括号](https://leetcode-cn.com/problems/valid-parentheses/description/)|[题解](https://leetcode-cn.com/problems/valid-parentheses/solution/)|IsValid(IsValid.java)|2018-11-26|
 |[删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/submissions/1)|无|[RemoveNthFromEnd](/RemoveNthFromEnd.java)|2018-11-27|
 |[简化路径](https://leetcode-cn.com/problems/simplify-path/description/)|无|[SimplifyPath](SimplifyPath.java)|2018-11-28|
+|[二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/description/)|无|[TreeSolution](TreeSolution.java)|2018-11-29|
+|[二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/description/)|无|[TreeSolution](TreeSolution.java)|2018-11-29|
+|[二叉树的层次遍历 II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/description/)|无|[TreeSolution](TreeSolution.java)|2018-11-29|
+|[二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/description/)|无|[TreeSolution](TreeSolution.java)|2018-11-29|
+|[二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/description/)|无|[TreeSolution](TreeSolution.java)|2018-11-29|
+|[二叉树剪枝](https://leetcode-cn.com/problems/binary-tree-pruning/description/)|无|[TreeSolution](TreeSolution.java)|2018-11-29|
+|[从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)|无|[TreeSolution](TreeSolution.java)|2018-11-29|
+|[最大二叉树](https://leetcode-cn.com/problems/maximum-binary-tree/description/)|无|[TreeSolution](TreeSolution.java)|2018-11-29|
+|[合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/description/)|无|[TreeSolution](TreeSolution.java)|2018-11-29|
