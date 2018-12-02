@@ -26,3 +26,4 @@
 |[合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/description/)|无|[TreeSolution](TreeSolution.java)|2018-11-29|
 |[字符串相乘](https://leetcode-cn.com/problems/multiply-strings/description/)|无|[MultiplyStrings](MultiplyStrings.java)|2018-11-30|
 |[字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/description/)|滑动窗口|[CheckInclusion](CheckInclusion.java)|2018-12-01|
+|[等差数列划分](https://leetcode-cn.com/problems/arithmetic-slices/description/)|无|[NumberOfArithmeticSlices](NumberOfArithmeticSlices.java)|2018-12-02|
