@@ -28,3 +28,4 @@
 |[字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/description/)|滑动窗口|[CheckInclusion](CheckInclusion.java)|2018-12-01|
 |[等差数列划分](https://leetcode-cn.com/problems/arithmetic-slices/description/)|无|[NumberOfArithmeticSlices](NumberOfArithmeticSlices.java)|2018-12-02|
 |[单词拆分](https://leetcode-cn.com/problems/word-break/description/)|无|[WordBreak](WordBreak.java)|2018-12-03|
+|全排列|无|Permute|2018-12-06|
