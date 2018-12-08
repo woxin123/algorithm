@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d0ec535-9f8e-4a91-a5cc-1b57771d90f1" name="默认的" comment="链表 两数相加">
-      <change afterPath="$PROJECT_DIR$/src/com/example/base/queue/ArrayQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/base/queue/CircularQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/base/queue/LinkedQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/leetcode/Divide.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -83,15 +81,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/base/queue/CircularQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-              <folding>
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#375#376#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="227">
+              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/Divide.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="35" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -141,7 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/剑指offer/JianShengZi.java" />
         <option value="$PROJECT_DIR$/src/com/example/base/dynamicprogramming/JianShengZi.java" />
         <option value="$PROJECT_DIR$/src/com/example/base/dynamicprogramming/CoinProblem.java" />
         <option value="$PROJECT_DIR$/src/com/example/base/dynamicprogramming/过河卒.java" />
@@ -192,6 +194,7 @@
         <option value="$PROJECT_DIR$/src/com/example/base/queue/ArrayQueue.java" />
         <option value="$PROJECT_DIR$/src/com/example/base/queue/LinkedQueue.java" />
         <option value="$PROJECT_DIR$/src/com/example/base/queue/CircularQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/example/leetcode/Divide.java" />
       </list>
     </option>
   </component>
@@ -296,7 +299,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/mengchen/Study/算法/src/com/example/剑指offer/HasSubTree.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544271819416" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544277129888" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -324,9 +327,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkedQueue">
+  <component name="RunManager" selected="Application.Divide">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Divide" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.leetcode.Divide" />
+      <module name="算法" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -387,20 +404,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.leetcode.TreeSolution" />
-      <module name="algorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -422,19 +425,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TreeSolution" />
       <item itemvalue="Application.MultiplyStrings" />
       <item itemvalue="Application.NumberOfArithmeticSlices" />
       <item itemvalue="Application.FindMedianSortedArrays" />
       <item itemvalue="Application.LinkedQueue" />
+      <item itemvalue="Application.Divide" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Divide" />
         <item itemvalue="Application.LinkedQueue" />
         <item itemvalue="Application.FindMedianSortedArrays" />
         <item itemvalue="Application.NumberOfArithmeticSlices" />
         <item itemvalue="Application.MultiplyStrings" />
-        <item itemvalue="Application.TreeSolution" />
       </list>
     </recent_temporary>
   </component>
@@ -529,7 +532,7 @@
       <workItem from="1543840886606" duration="501000" />
       <workItem from="1544077886453" duration="8667000" />
       <workItem from="1544149534786" duration="3433000" />
-      <workItem from="1544259979520" duration="2905000" />
+      <workItem from="1544259979520" duration="5062000" />
     </task>
     <task id="LOCAL-00001" summary="二进制中的1">
       <created>1524204083827</created>
@@ -661,7 +664,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301213000" />
+    <option name="totallyTimeSpent" value="303370000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -686,13 +689,13 @@
       <window_info id="设计师" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" x="661" y="354" width="518" height="196" id="Run" order="2" sideWeight="0.4987163" visible="true" weight="0.25409836" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4442623" />
+      <window_info anchor="bottom" x="661" y="354" width="518" height="196" id="Run" order="2" sideWeight="0.4987163" weight="0.25409836" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4442623" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.6196721" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5012837" side_tool="true" weight="0.28494623" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4987163" weight="0.4844517" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4987163" weight="0.15245901" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.30983606" />
       <window_info anchor="bottom" id="消息" order="10" weight="0.32798573" />
       <window_info anchor="bottom" id="运行" order="11" visible="true" weight="0.41112828" />
@@ -884,6 +887,18 @@
           <properties />
           <option name="timeStamp" value="40" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/example/leetcode/Divide.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/example/leetcode/Divide.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>
         <breakpoint suspend="THREAD" type="java-line" />
@@ -917,7 +932,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/System.java" />
     <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/MaxArea.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1295">
@@ -1247,12 +1261,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/base/queue/CircularQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding>
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="227">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/leetcode/Divide.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="35" selection-end-column="9" />
         </state>
       </provider>
     </entry>
