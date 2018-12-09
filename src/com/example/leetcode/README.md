@@ -28,6 +28,12 @@
 |[字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/description/)|滑动窗口|[CheckInclusion](CheckInclusion.java)|2018-12-01|
 |[等差数列划分](https://leetcode-cn.com/problems/arithmetic-slices/description/)|无|[NumberOfArithmeticSlices](NumberOfArithmeticSlices.java)|2018-12-02|
 |[单词拆分](https://leetcode-cn.com/problems/word-break/description/)|无|[WordBreak](WordBreak.java)|2018-12-03|
+|[两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/description/)|无|[SwapPairs](SwapPairs.java)|2018-12-05|
+|[删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/description/)|双指针法|[RemoveDuplicates](RemoveDuplicates.java)|2018-12-05|
+|[移除元素](https://leetcode-cn.com/problems/remove-element/description/)|双指针法|[RemoveElement](RemoveElement.java)|2018-12-05|
+|[删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/description/)|无|[DeleteDuplicates](DeleteDuplicates.java)|2018-12-05|
 |全排列|无|Permute|2018-12-06|
 |寻找两个有序数组的中位数|无|[FindMedianSortedArrays](FindMedianSortedArrays.java)|2018-12-07|
-|两书相除|位运算|[Divide](Divide.java)|2018-12-28|
+|两数相除|位运算|[Divide](Divide.java)|2018-12-08|
+|k个一组翻转链表|无|[FindMedianSortedArrays](FindMedianSortedArrays.java)|2018-12-09|
+
