@@ -37,3 +37,4 @@
 |两数相除|位运算|[Divide](Divide.java)|2018-12-08|
 |k个一组翻转链表|无|[FindMedianSortedArrays](FindMedianSortedArrays.java)|2018-12-09|
 |判断循环链表|快慢指针、哈希表|[HasCycle](HasCycle.java)|2018-12-13|
+|环形链表 II|哈希表，[特殊快慢指针](http://www.cnblogs.com/ranranblog/p/5587079.html)|[DetectCycle](DetectCycle.java)|2018-12-16|
