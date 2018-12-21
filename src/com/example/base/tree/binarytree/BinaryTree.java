@@ -140,10 +140,14 @@ public class BinaryTree<T> {
         BinaryNode<T> pre = null;
         stack.push(this.root);
         while (!stack.isEmpty()) {
+            // 取当前栈顶
             cur = stack.peek();
+            // 判断是否出栈
             if ((cur.left == null && cur.right == null) ||
                     (pre != null && (pre == cur.left || pre == cur.right))) {
+                // 访问
                 list.add(cur.element);
+                // 出栈
                 stack.pop();
                 pre = cur;
             } else {
