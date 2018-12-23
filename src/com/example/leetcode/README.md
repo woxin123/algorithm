@@ -42,3 +42,4 @@
 |合并K个排序的链表|无|[MergeKLists](MergeKLists.java)|2018-12-20|
 |搜索插入位置|无|[SearchInsert](SearchInsert.java)|2018-12-21|
 |有效的数独|无|[IsValidSudoku](IsValidSudoku.java)|2018-12-22|
+|解数独|dsf|[SolveSudoku](SolveSudoku.java)|2018-12-23|
