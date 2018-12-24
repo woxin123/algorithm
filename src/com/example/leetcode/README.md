@@ -43,3 +43,4 @@
 |搜索插入位置|无|[SearchInsert](SearchInsert.java)|2018-12-21|
 |有效的数独|无|[IsValidSudoku](IsValidSudoku.java)|2018-12-22|
 |解数独|dsf|[SolveSudoku](SolveSudoku.java)|2018-12-23|
+|报数|无|[CountAndSay](CountAndSay.java)|2018-12-24|
