@@ -45,3 +45,4 @@
 |解数独|dsf|[SolveSudoku](SolveSudoku.java)|2018-12-23|
 |报数|无|[CountAndSay](CountAndSay.java)|2018-12-24|
 |组合总和I&II|递归+回溯|[CombinationSum](CombinationSum.java)|2018-12-25|
+|缺失的第一个正数|无|[FirstMissingPositive](FirstMissingPositive.java)|2018-12-26|
