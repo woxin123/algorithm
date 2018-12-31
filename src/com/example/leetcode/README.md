@@ -48,3 +48,4 @@
 |缺失的第一个正数|无|[FirstMissingPositive](FirstMissingPositive.java)|2018-12-26|
 |接雨水|左右指针|[Trap](Trap.java)|2018-12-27|
 |反转字符串中的单词 III|无|[ReverseWords](ReverseWords.java)|2018-12-29|
+|N皇后问题|递归+回溯|[SolveNQueens](SolveNQueens.java)|2018-12-31|
