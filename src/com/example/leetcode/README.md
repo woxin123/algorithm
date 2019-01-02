@@ -50,3 +50,5 @@
 |反转字符串中的单词 III|无|[ReverseWords](ReverseWords.java)|2018-12-29|
 |N皇后问题|递归+回溯|[SolveNQueens](SolveNQueens.java)|2018-12-31|
 |最大子序列和|动态规划|[MaxSubArray](MaxSubArray.java)|2018-01-01|
+|删除链表中的节点|无|[DeleteNode](DeleteNode.java)|2018-01-02|
+|反转链表|无|[ReverseList](ReverseList.java)|2018-01-02|
