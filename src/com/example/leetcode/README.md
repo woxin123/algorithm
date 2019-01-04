@@ -52,3 +52,5 @@
 |最大子序列和|动态规划|[MaxSubArray](MaxSubArray.java)|2018-01-01|
 |删除链表中的节点|无|[DeleteNode](DeleteNode.java)|2018-01-02|
 |反转链表|无|[ReverseList](ReverseList.java)|2018-01-02|
+|子集|回溯|[Subsets](Subsets.java)|2018-01-03|
+|格雷编码|回溯?|[GrayCode](GrayCode.java)|2018-01-04|
