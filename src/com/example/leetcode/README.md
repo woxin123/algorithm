@@ -49,8 +49,9 @@
 |接雨水|左右指针|[Trap](Trap.java)|2018-12-27|
 |反转字符串中的单词 III|无|[ReverseWords](ReverseWords.java)|2018-12-29|
 |N皇后问题|递归+回溯|[SolveNQueens](SolveNQueens.java)|2018-12-31|
-|最大子序列和|动态规划|[MaxSubArray](MaxSubArray.java)|2018-01-01|
-|删除链表中的节点|无|[DeleteNode](DeleteNode.java)|2018-01-02|
-|反转链表|无|[ReverseList](ReverseList.java)|2018-01-02|
-|子集|回溯|[Subsets](Subsets.java)|2018-01-03|
-|格雷编码|回溯?|[GrayCode](GrayCode.java)|2018-01-04|
+|最大子序列和|动态规划|[MaxSubArray](MaxSubArray.java)|2019-01-01|
+|删除链表中的节点|无|[DeleteNode](DeleteNode.java)|2019-01-02|
+|反转链表|无|[ReverseList](ReverseList.java)|2019-01-02|
+|子集|回溯|[Subsets](Subsets.java)|2019-01-03|
+|格雷编码|回溯?|[GrayCode](GrayCode.java)|2019-01-04|
+|从中序与后序遍历序列构造二叉树|无|[TreeSolution](TreeSolution.java)|2019-01-05|

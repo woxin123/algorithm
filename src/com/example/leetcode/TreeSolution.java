@@ -198,6 +198,7 @@ public class TreeSolution {
 
     /**
      * 二叉树剪枝
+     *
      * @param root
      * @return
      */
@@ -216,6 +217,7 @@ public class TreeSolution {
 
     /**
      * 合并二叉树
+     *
      * @param t1
      * @param t2
      * @return
@@ -239,25 +241,58 @@ public class TreeSolution {
 
     /**
      * 从中序与后序遍历序列构造二叉树
+     *
      * @param inorder
      * @param postorder
      * @return
      */
-//    public TreeNode buildTree(int[] inorder, int[] postorder) {
-//
-//    }
+    private int countIP = 0;
+
+    public TreeNode buildTree(int[] inorder, int[] postorder, boolean flag) {
+        if (inorder.length == 0 || postorder.length == 0) {
+            return null;
+        }
+        countIP = postorder.length - 1;
+        return buildTreeHelp(inorder, postorder, 0, postorder.length - 1);
+    }
+
+
+    private TreeNode buildTreeHelp(int[] inorder, int[] postorder, int start, int end) {
+        if (start > end) {
+            return null;
+        }
+        TreeNode node = new TreeNode(postorder[countIP]);
+        if (start == end) {
+            countIP--;
+            return node;
+        }
+        int a = 0;
+        for (int i = start; i <= end; i++) {
+            if (inorder[i] == postorder[countIP]) {
+                a = i;
+                countIP--;
+                break;
+            }
+        }
+        node.right = buildTreeHelp(inorder, postorder, a + 1, end);
+        node.left = buildTreeHelp(inorder, postorder, start, a - 1);
+        return node;
+    }
+
 
     /**
      * 从前序与中序遍历序列构造二叉树
+     *
      * @param preorder
      * @param inorder
      * @return
      */
     public TreeNode buildTree(int[] preorder, int[] inorder) {
-        return buildTreeRecursive(0, inorder.length - 1,preorder, inorder);
+        return buildTreeRecursive(0, inorder.length - 1, preorder, inorder);
     }
 
     private int count = 0;
+
     public TreeNode buildTreeRecursive(int start, int end, int[] preorder, int[] inorder) {
         if (start > end) {
             return null;
@@ -282,7 +317,7 @@ public class TreeSolution {
 
     public static void main(String[] args) {
         TreeSolution treeSolution = new TreeSolution();
-        TreeNode treeNode = treeSolution.buildTree(new int[]{3,9,20,15,7}, new int[]{9,3,15,20,7});
+        TreeNode treeNode = treeSolution.buildTree(new int[]{9, 3, 15, 20, 7}, new int[]{9, 15, 7, 20, 3}, false);
         System.out.println(treeSolution.levelOrder(treeNode));
     }
 }
