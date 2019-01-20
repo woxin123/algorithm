@@ -57,3 +57,4 @@
 |从中序与后序遍历序列构造二叉树|无|[TreeSolution](TreeSolution.java)|2019-01-05|
 |全排列 II|回溯|[PermuteUnique](PermuteUnique.java)|2019-01-08| 
 |图像旋转|暴力|[Rotate](Rotate.java)|2019-01-18|
+|Pow(x, n)|减少相乘次数|[MyPow](MyPow.java)|2019-01-20|
