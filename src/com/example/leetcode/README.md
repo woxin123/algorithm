@@ -60,4 +60,4 @@
 |字母异位词分组|排序数组分类或计数分类|[GroupAnagrams](GroupAnagrams.java)|2019-01-19|
 |Pow(x, n)|减少相乘次数|[MyPow](MyPow.java)|2019-01-20|
 |跳跃游戏|动态规划或贪心|[CanJump](CanJump.java)|2019-01-21|
-
+|合并区间|排序+贪心|[Merge](Merge.java)|2019-01-22|
