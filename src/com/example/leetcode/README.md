@@ -66,3 +66,5 @@
 |不同路径|动态规划|[UniquePaths](UniquePaths.java)|2019-01-24|
 |不同路径 II|动态规划|[UniquePathsWithObstacles](UniquePathsWithObstacles.java)|2019-01-25|
 |最小路径和|动态规划|[MinPathSum](MinPathSum.java)|2019-01-26|
+|加一|无|[PlusOne](PlusOne.java)|2019-01-27|
+|二进制求和|无|[AddBinary](AddBinary.java)|2018-01-27|
