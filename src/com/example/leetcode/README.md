@@ -72,3 +72,4 @@
 |搜索二维矩阵|二分|[SearchMatrix](SearchMatrix.java)|2019-01-28|
 |颜色分类|左右指针|[SortColors](SortColors.java)|2019-01-29|
 |组合|回溯|[Combine](Combine.java)|2019-01-30|
+|单词搜索|dfs|[Exist](Exist.java)|2019-01-31|
