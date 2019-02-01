@@ -20,4 +20,9 @@ public class RemoveDuplicates {
         return i + 1;
     }
 
+    public static void main(String[] args) {
+        RemoveDuplicates removeDuplicates = new RemoveDuplicates();
+        System.out.println(removeDuplicates.removeDuplicates(new int[]{0, 0, 1, 1, 2, 2, 2, 3, 3, 4, 4 ,4}));
+    }
+
 }
