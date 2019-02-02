@@ -74,3 +74,5 @@
 |组合|回溯|[Combine](Combine.java)|2019-01-30|
 |单词搜索|dfs|[Exist](Exist.java)|2019-01-31|
 |删除排序数组中的重复项 II|无|[RemoveDuplicatesII](RemoveDuplicatesII.java)|2019-02-01|
+|删除排序链表中的重复元素|直接法|[DeleteDuplicatesFromListNode](DeleteDuplicatesFromListNode.java)|2019-02-02|
+|分隔链表|直接法|[Partition](Partition.java)|2019-02-02|
