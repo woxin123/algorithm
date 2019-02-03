@@ -76,3 +76,5 @@
 |删除排序数组中的重复项 II|无|[RemoveDuplicatesII](RemoveDuplicatesII.java)|2019-02-01|
 |删除排序链表中的重复元素|直接法|[DeleteDuplicatesFromListNode](DeleteDuplicatesFromListNode.java)|2019-02-02|
 |分隔链表|直接法|[Partition](Partition.java)|2019-02-02|
+|子集 II|dsf+回溯|[SubsetsWithDup](SubsetsWithDup.java)|2019-02-03|
+|解码方法|动态规划|
