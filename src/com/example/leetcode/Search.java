@@ -44,8 +44,36 @@ public class Search {
         return -1;
     }
 
+    public int search1(int[] nums, int target) {
+        if (nums.length == 0) {
+            return -1;
+        }
+        int left = 0, right = nums.length - 1;
+        int mid = 0;
+        while (left <= right) {
+            mid = (left + right) / 2;
+            if (nums[mid] == target) {
+                return mid;
+            } else if (nums[mid] < nums[right]) {
+                if (nums[mid] < target && nums[right] >= target) {
+                    left = mid + 1;
+                } else {
+                    right = mid - 1;
+                }
+            } else {    // 3 4 5 1 2 nums[mid] = 5 target 4
+                if (nums[mid] > target && nums[left] <= target) {
+                    right = mid - 1;
+                } else {
+                    left = mid + 1;
+                }
+            }
+        }
+        return -1;
+    }
+
+
     public static void main(String[] args) {
         Search search = new Search();
-        System.out.println(search.search(new int[] {4, 5, 6, 7, 0, 1,2 }, 7));
+        System.out.println(search.search1(new int[] {4, 5, 6, 7, 0, 1,2 }, 7));
     }
 }

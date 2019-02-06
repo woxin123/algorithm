@@ -38,7 +38,7 @@
 |k个一组翻转链表|无|[FindMedianSortedArrays](FindMedianSortedArrays.java)|2018-12-09|
 |判断循环链表|快慢指针、哈希表|[HasCycle](HasCycle.java)|2018-12-13|
 |环形链表 II|哈希表，[特殊快慢指针](http://www.cnblogs.com/ranranblog/p/5587079.html)|[DetectCycle](DetectCycle.java)|2018-12-16|
-|搜索旋转排序数组|二叉查找|[Search](Search.java)|2018-12-18|
+|搜索旋转排序数组|二分查找|[Search](Search.java)|2018-12-18|
 |合并K个排序的链表|无|[MergeKLists](MergeKLists.java)|2018-12-20|
 |搜索插入位置|无|[SearchInsert](SearchInsert.java)|2018-12-21|
 |有效的数独|无|[IsValidSudoku](IsValidSudoku.java)|2018-12-22|
@@ -78,3 +78,5 @@
 |分隔链表|直接法|[Partition](Partition.java)|2019-02-02|
 |子集 II|dsf+回溯|[SubsetsWithDup](SubsetsWithDup.java)|2019-02-03|
 |解码方法|动态规划|[NumDecodings](NumDecodings.java)|2019-01-05|
+|搜索旋转排序数组 II|二分查找|[SearchII](SearchII.java)|2019-01-06|
+|反转链表 II|无|[ReverseBetween](ReverseBetween.java)|2019-01-06|
