@@ -80,3 +80,5 @@
 |解码方法|动态规划|[NumDecodings](NumDecodings.java)|2019-01-05|
 |搜索旋转排序数组 II|二分查找|[SearchII](SearchII.java)|2019-01-06|
 |反转链表 II|无|[ReverseBetween](ReverseBetween.java)|2019-01-06|
+|不同的二叉搜索树 II|递归+动态规划|[GenerateTrees](GenerateTrees.java)|2019-02-07|
+|不同的二叉搜索树|动态规划|[NumTrees](NumTrees.java)|2019-02-07|
