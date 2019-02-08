@@ -82,3 +82,5 @@
 |反转链表 II|无|[ReverseBetween](ReverseBetween.java)|2019-01-06|
 |不同的二叉搜索树 II|递归+动态规划|[GenerateTrees](GenerateTrees.java)|2019-02-07|
 |不同的二叉搜索树|动态规划|[NumTrees](NumTrees.java)|2019-02-07|
+|将有序数组转换为二叉搜索树|递归|[SortedArrayToBST](SortedArrayToBST.java)|2019-02-08|
+|有序链表转换二叉搜索树|快慢指针+递归|[SortedListToBST](SortedListToBST.java)|2019-02-08|
