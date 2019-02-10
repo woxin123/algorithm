@@ -1,5 +1,7 @@
 package com.example.leetcode;
 
+import com.example.leetcode.util.TreeNode;
+
 /**
  * @author mengchen
  * @time 19-2-8 下午2:57

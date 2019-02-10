@@ -1,7 +1,9 @@
 package com.example.leetcode;
 
+import com.example.leetcode.util.TreeNode;
+
 /**
- * @auther 孟晨
+ * @author 孟晨
  * @date 2019/2/9 22:00
  */
 public class IsBalanced {

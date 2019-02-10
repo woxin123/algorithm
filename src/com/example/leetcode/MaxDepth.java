@@ -5,6 +5,8 @@ package com.example.leetcode;
  * @date 2018/7/7 11:56
  */
 
+import com.example.leetcode.util.TreeNode;
+
 /**
  * Given a binary tree, find its maximum depth.
  * 给一个二叉树，找出这个树的最大深度

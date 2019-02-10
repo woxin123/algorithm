@@ -85,3 +85,6 @@
 |将有序数组转换为二叉搜索树|递归|[SortedArrayToBST](SortedArrayToBST.java)|2019-02-08|
 |有序链表转换二叉搜索树|快慢指针+递归|[SortedListToBST](SortedListToBST.java)|2019-02-08|
 |平衡二叉树|递归|[IsBalanced](IsBalanced.java)|2019-02-09|
+|二叉树的最小深度|递归|[MinDepth](MinDepth.java)|2019-02-10|
+|路径总和|递归|[HasPathSum](HasPathSum.java)|2019-02-10|
+|路径总和 II|递归+回溯|[PathSum](PathSum.java)|2019-02-10|

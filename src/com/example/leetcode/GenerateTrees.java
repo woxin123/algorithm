@@ -1,6 +1,7 @@
 package com.example.leetcode;
 
 import com.example.leetcode.util.ListNode;
+import com.example.leetcode.util.TreeNode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
