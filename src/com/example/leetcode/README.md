@@ -88,3 +88,5 @@
 |二叉树的最小深度|递归|[MinDepth](MinDepth.java)|2019-02-10|
 |路径总和|递归|[HasPathSum](HasPathSum.java)|2019-02-10|
 |路径总和 II|递归+回溯|[PathSum](PathSum.java)|2019-02-10|
+|二叉树展开为链表|递归|[Flatten](Flatten.java)|2019-02-11|
+
