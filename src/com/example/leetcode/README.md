@@ -91,3 +91,6 @@
 |二叉树展开为链表|递归|[Flatten](Flatten.java)|2019-02-11|
 |填充同一层的兄弟节点|无|[Connect](Connect.java)|2019-02-12|
 |填充同一层的兄弟节点 II|无|[Connect](Connect.java)|2019-02-12|
+|杨辉三角|无|[Generate](Generate.java)|2019-02-13|
+|杨辉三角 II|打表|[GetRow](GetRow.java)|2019-02-13|
+|三角形路径总和|动态规划|[MinimumTotal](MinimumTotal.java)|2019-02-13|
