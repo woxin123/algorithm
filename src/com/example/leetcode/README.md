@@ -95,3 +95,5 @@
 |杨辉三角 II|打表|[GetRow](GetRow.java)|2019-02-13|
 |三角形路径总和|动态规划|[MinimumTotal](MinimumTotal.java)|2019-02-13|
 |买卖股票的最佳时机 II|贪心|[MaxProfitII](MaxProfitII.java)|2019-02-14|
+|验证回文串|无|[IsPalindrome](IsPalindrome.java)|2019-02-15|
+|单词接龙|图论+bfs|[LadderLength](LadderLength.java)|2019-02-15|
