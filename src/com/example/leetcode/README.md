@@ -101,4 +101,6 @@
 |被围绕的区域|dfs|[Solve](Solve.java)|2019-02-16|
 |分割回文串|回溯|[PalindromePartitioning](PalindromePartitioning.java)|2019-02-17|
 |克隆图|dfs|[CloneGraph](CloneGraph.java)|2019-02-18|
-|加油机|贪心|[CanCompleteCircuit](CanCompleteCircuit.java)|2019-02-19|
+|加油站|贪心|[CanCompleteCircuit](CanCompleteCircuit.java)|2019-02-19|
+|只出现一次的数字|模二运算|[SingleNumber](SingleNumber.java)|2019-02-20|
+|只出现一次的数字 II|模三运算|[SingleNumberII](SingleNumberII.java)|2019-02-20|
