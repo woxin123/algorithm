@@ -23,6 +23,7 @@ public class ListNode {
                 tail.next = new ListNode(nums[i]);
                 tail = tail.next;
             }
+
         }
         return head;
     }
@@ -32,9 +33,14 @@ public class ListNode {
         StringBuilder sb = new StringBuilder();
         ListNode p = this;
         sb.append("[");
+        int count = 0;
         while (p.next != null) {
             sb.append(p.val + ", ");
             p = p.next;
+            count++;
+            if (count > 20) {
+                break;
+            }
         }
         sb.append(p.val + "]");
         return sb.toString();
