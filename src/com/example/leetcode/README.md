@@ -107,3 +107,4 @@
 |复制带随机指针的链表|无|[CopyRandomList](CopyRandomList.java)|2019-02-21|
 |重排链表|无|[ReorderList](ReorderList.java)|2019-02-22|
 |对链表进行插入排序|插入排序|[InsertionSortList](InsertionSortList.java)|2019-02-23|
+|排序链表|归并排序|[SortList](SortList.java)|2019-02-24|
