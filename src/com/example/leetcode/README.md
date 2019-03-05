@@ -116,3 +116,5 @@
 |分数到小数|使用map判断循环|[FractionToDecimal](FractionToDecimal.java)|2019-03-03|
 |两数之和 II - 输入有序数组|双指针法|[TwoSumII](TwoSumII.java)|2019-03-04|
 |Excel表列名称|无|[ConvertToTitle](ConvertToTitle.java)|2019-03-04|
+|求众数|无|[MajorityElement](MajorityElement.java)|2019-03-05|
+|Excel表列序号|无|[TitleToNumber](TitleToNumber.java)|2019-03-05|
