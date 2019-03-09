@@ -121,3 +121,4 @@
 |阶乘后的零|无|[TrailingZeroes](TrailingZeroes.java)|2019-03-06|
 |二叉搜索树迭代器|树的中序遍历|[BSTIterator](BSTIterator.java)|2019-03-06|
 |最大数|排序|[LargestNumber](LargestNumber.java)|2019-03-08|
+|重复的DNA序列|无|[FindRepeatedDnaSequences](FindRepeatedDnaSequences.java)|2019-03-09|
