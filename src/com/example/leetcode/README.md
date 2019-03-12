@@ -122,3 +122,5 @@
 |二叉搜索树迭代器|树的中序遍历|[BSTIterator](BSTIterator.java)|2019-03-06|
 |最大数|排序|[LargestNumber](LargestNumber.java)|2019-03-08|
 |重复的DNA序列|无|[FindRepeatedDnaSequences](FindRepeatedDnaSequences.java)|2019-03-09|
+|旋转数组|无|[RotateArray](RotateArray.java)|2019-03-10|
+|颠倒二进制位|无|[ReverseBits](ReverseBits.java)|2019-03-12|
