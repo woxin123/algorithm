@@ -124,3 +124,6 @@
 |重复的DNA序列|无|[FindRepeatedDnaSequences](FindRepeatedDnaSequences.java)|2019-03-09|
 |旋转数组|无|[RotateArray](RotateArray.java)|2019-03-10|
 |颠倒二进制位|无|[ReverseBits](ReverseBits.java)|2019-03-12|
+|位1的个数|位运算|[HammingWeight](HammingWeight.java)|2019-03-13|
+|打家劫舍|动态规划|[HouseRobber](HouseRobber.java)|2019-03-14|
+|二叉树的右视图|层次遍历|[RightSideView](RightSideView.java)|2019-03-15|
