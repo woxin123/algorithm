@@ -27,6 +27,7 @@ public class HappyNum {
             int a = n % 10;
             sum += a * a;
             n = n / 10;
+
         }
         return sum;
     }
