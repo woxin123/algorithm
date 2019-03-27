@@ -130,3 +130,4 @@
 |岛屿的个数|dfs + 感染|[NumIslands](NumIslands.java)|2019-03-16|
 |数字范围按位与|无|[RangeBitwiseAnd](RangeBitwiseAnd.java)|2019-03-17|
 |移除链表元素|无|[RemoveElements](RemoveElements.java)|2019-03-21|
+|2的幂|无|[IsPowerOfTwo](IsPowerOfTwo.java)|2019-03-27|
