@@ -131,3 +131,4 @@
 |数字范围按位与|无|[RangeBitwiseAnd](RangeBitwiseAnd.java)|2019-03-17|
 |移除链表元素|无|[RemoveElements](RemoveElements.java)|2019-03-21|
 |2的幂|无|[IsPowerOfTwo](IsPowerOfTwo.java)|2019-03-27|
+|计数质数|厄拉多塞筛法|[CountPrimes](CountPrimes.java)|2019-03-28|
