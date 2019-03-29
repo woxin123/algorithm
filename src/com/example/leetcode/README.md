@@ -132,3 +132,4 @@
 |移除链表元素|无|[RemoveElements](RemoveElements.java)|2019-03-21|
 |2的幂|无|[IsPowerOfTwo](IsPowerOfTwo.java)|2019-03-27|
 |计数质数|厄拉多塞筛法|[CountPrimes](CountPrimes.java)|2019-03-28|
+|实现 Trie (前缀树)|无|[Trie](Trie.java)|2019-03-29|
