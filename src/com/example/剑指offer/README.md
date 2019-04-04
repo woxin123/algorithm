@@ -9,3 +9,6 @@
 |数组中的逆序对|利用归并排序的思想|[InversePairs](InversePairs.java)|2019-04-01|
 |两个链表的第一个公共结点|长的先走，然后一起走|[FindFirstCommonNode](FindFirstCommonNode.java)|2019-04-01|
 |数字在排序数组中出现的次数|第一次出现的和最后一次出现的|[GetNumberOfK](GetNumberOfK.java)|2019-04-03|
+|平衡二叉树|利用递归|[IsBalanced](IsBalanced.java)|2019-04-04|
+|二叉树的深度|递归|[TreeDepth](TreeDepth.java)|2019-04-04|
+|数组中只出现一次的数字|任何而一个数字异或它自己都等于0|[FindNumsAppearOnce](FindNumsAppearOnce.java)|2019-04-04|
