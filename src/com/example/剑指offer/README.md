@@ -12,3 +12,4 @@
 |平衡二叉树|利用递归|[IsBalanced](IsBalanced.java)|2019-04-04|
 |二叉树的深度|递归|[TreeDepth](TreeDepth.java)|2019-04-04|
 |数组中只出现一次的数字|任何而一个数字异或它自己都等于0|[FindNumsAppearOnce](FindNumsAppearOnce.java)|2019-04-04|
+|和为S的两个数字|左右指针|[FindNumbersWithSum](FindNumbersWithSum.java)|2019-04-05|
