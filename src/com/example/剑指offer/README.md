@@ -14,3 +14,5 @@
 |数组中只出现一次的数字|任何而一个数字异或它自己都等于0|[FindNumsAppearOnce](FindNumsAppearOnce.java)|2019-04-04|
 |和为S的两个数字|左右指针|[FindNumbersWithSum](FindNumbersWithSum.java)|2019-04-05|
 |和为S的连续正数序列|左右指针|[FindContinuousSequence](FindContinuousSequence.java)|2019-04-05|
+|翻转单词顺序列|无|[ReverseSentence](ReverseSentence.java)|2019-04-06|
+|左旋转字符串|无|[LeftRotateString](LeftRotateString.java)|2019-04-06|
