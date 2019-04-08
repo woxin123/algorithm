@@ -16,3 +16,4 @@
 |和为S的连续正数序列|左右指针|[FindContinuousSequence](FindContinuousSequence.java)|2019-04-05|
 |翻转单词顺序列|无|[ReverseSentence](ReverseSentence.java)|2019-04-06|
 |左旋转字符串|无|[LeftRotateString](LeftRotateString.java)|2019-04-06|
+|扑克牌顺子|无|[IsContinuous](IsContinuous.java)|2019-04-08|
