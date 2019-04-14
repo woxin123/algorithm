@@ -18,3 +18,4 @@
 |左旋转字符串|无|[LeftRotateString](LeftRotateString.java)|2019-04-06|
 |扑克牌顺子|无|[IsContinuous](IsContinuous.java)|2019-04-08|
 |求1+2+3+...+n|递归|[Sum](Sum.java)|2019-04-11|
+|不用加减乘除做加法|位运算|[Add](Add.java)|2019-04-14|
