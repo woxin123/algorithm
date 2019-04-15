@@ -19,3 +19,4 @@
 |扑克牌顺子|无|[IsContinuous](IsContinuous.java)|2019-04-08|
 |求1+2+3+...+n|递归|[Sum](Sum.java)|2019-04-11|
 |不用加减乘除做加法|位运算|[Add](Add.java)|2019-04-14|
+|二进制中1的个数|位运算|[NumberOf1](NumberOf1.java)|2019-04-15|
