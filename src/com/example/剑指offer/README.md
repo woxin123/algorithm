@@ -22,3 +22,4 @@
 |二进制中1的个数|位运算|[NumberOf1](NumberOf1.java)|2019-04-15|
 |字符串转换为整数|无|[StrToInt](StrToInt.java)|2019-04-16|
 |数组中重复的数字|比较、交换|[Duplicate](Duplicate.java)|2019-04-16|
+|构建乘积数组|无|[Multiply](Multiply.java)|2019-04-16|
