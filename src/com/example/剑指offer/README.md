@@ -20,3 +20,5 @@
 |求1+2+3+...+n|递归|[Sum](Sum.java)|2019-04-11|
 |不用加减乘除做加法|位运算|[Add](Add.java)|2019-04-14|
 |二进制中1的个数|位运算|[NumberOf1](NumberOf1.java)|2019-04-15|
+|字符串转换为整数|无|[StrToInt](StrToInt.java)|2019-04-16|
+|数组中重复的数字|比较、交换|[Duplicate](Duplicate.java)|2019-04-16|
