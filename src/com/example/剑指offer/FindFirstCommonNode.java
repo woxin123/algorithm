@@ -1,5 +1,7 @@
 package com.example.剑指offer;
 
+import com.example.leetcode.util.ListNode;
+
 /**
  * 两个链表的第一个公共结点
  * @author mengchen

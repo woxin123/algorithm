@@ -5,11 +5,13 @@ package com.example.剑指offer;
  * Create by 18-4-25
  */
 
+import com.example.leetcode.util.ListNode;
+
 /**
  * 输入一个链表，输出该链表中倒数第k个结点。
  */
 public class ListTailToK {
-    public ListNode FindKthToTail(ListNode head,int k) {
+    public ListNode FindKthToTail(ListNode head, int k) {
         if (head == null) {
             return null;
         }
