@@ -159,10 +159,10 @@ public class QuickSort {
     }
 
     public static void main(String[] args) {
-        Integer[] array = new Integer[100000];
+        Integer[] array = new Integer[10000000];
         Random random = new Random();
-        for (int i = 0; i < 100000; i++) {
-            array[i] = random.nextInt(10000);
+        for (int i = 0; i < 10000000; i++) {
+            array[i] = random.nextInt(1000000);
         }
         long start = System.nanoTime();
         quickSort(array, Integer::compareTo);
