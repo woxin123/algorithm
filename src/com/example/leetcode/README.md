@@ -137,3 +137,5 @@
 |同构字符串|无|[IsIsomorphic](IsIsomorphic.java)|2019-03-31|
 |课程表 II|图|[FindOrder](FindOrder.java)|2019-04-01|
 |组合总和 III|dfs|[CombinationSum3](CombinationSum3.java)|2019-04-26|
+|存在重复元素 II|通过map解决|[ContainsNearbyDuplicate](ContainsNearbyDuplicate.java)|2019-04-27|
+|翻转二叉树|递归|[InvertTree](InvertTree.java)|2019-04-29|
