@@ -20,8 +20,3 @@ func intToRoman(num int) string {
 	}
 	return res
 }
-
-func main() {
-	x := intToRoman(320)
-	fmt.Println(x)
-}

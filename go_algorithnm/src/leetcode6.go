@@ -23,6 +23,3 @@ func convert(s string, numRows int) string {
 	return res
 }
 
-func main() {
-	convert("PAYPALISHIRING", 3)
-}

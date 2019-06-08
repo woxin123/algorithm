@@ -39,8 +39,3 @@ func myAtoi(str string) int {
 	return -res
 
 }
-
-func main() {
-	x := myAtoi("9223372036854775808")
-	fmt.Println(x)
-}

@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"math"
 )
 
@@ -35,8 +34,3 @@ func reverse(x int) int {
 	}
 }
 
-func main() {
-	x := reverse(-1234)
-	fmt.Println(x)
-	fmt.Println(math.MaxInt32)
-}
