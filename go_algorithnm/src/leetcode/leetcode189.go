@@ -11,7 +11,7 @@ func rotate(nums []int, k int) {
 	}
 	reverse(nums[:k])
 	reverse(nums[k:])
-	reverse(nums[:])
+	reverse(nums)
 }
 
 func reverse(nums []int) {
@@ -22,7 +22,7 @@ func reverse(nums []int) {
 }
 
 func main() {
-	a := [...]int{1, 2, 3, 4, 5}
+	a := []int{1, 2, 3, 4, 5}
 	rotate(a[:], 2)
 	fmt.Println(a)
 }
