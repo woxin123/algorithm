@@ -12,23 +12,23 @@ func permute(nums []int) [][]int {
 		return nil
 	}
 	res := make([][]int, 0, len(nums))
-	res = backTrace(res, nums, 0)
+	backTrace(&res, &nums, 0)
 	return res
 }
 
-func backTrace(res [][]int, nums []int, first int) [][]int {
-	if len(nums) == first {
-		temp := make([]int, len(nums))
-		copy(temp, nums)
-		res = append(res, temp)
-		return res
+func backTrace(res *[][]int, nums *[]int, first int) {
+	if len(*nums) == first {
+		temp := make([]int, len(*nums))
+		copy(temp, *nums)
+		*res = append(*res, temp)
+		return
 	}
-	for i := first; i < len(nums); i++ {
-		nums[first], nums[i] = nums[i], nums[first]
-		res = backTrace(res, nums, first + 1)
-		nums[first], nums[i] = nums[i], nums[first]
+	for i := first; i < len(*nums); i++ {
+		(*nums)[first], (*nums)[i] = (*nums)[i], (*nums)[first]
+		backTrace(res, nums, first + 1)
+		(*nums)[first], (*nums)[i] = (*nums)[i], (*nums)[first]
 	}
-	return res
+	return
 }
 
 func main() {
