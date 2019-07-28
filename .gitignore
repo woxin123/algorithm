@@ -2,3 +2,6 @@ out/**
 *.iml
 .idea/**
 *.xml
+java_algorithnm/.vscode/launch.json
+java_algorithnm/.vscode/settings.json
+java_algorithnm/src/com/example/classic/最长上升路径/Main.class

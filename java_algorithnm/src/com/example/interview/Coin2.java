@@ -19,5 +19,6 @@ public class Coin2 {
             countSet.add(result);
         }
         System.out.println(countSet.size());
+        
     }
 }
