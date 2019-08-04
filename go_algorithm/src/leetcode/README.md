@@ -2,6 +2,7 @@
 
 |题号|题目|解法|时间|
 ----|----|---|---|
+|[5](leetcode5.go)|最长回文字串|动态规划|2019-08-04|
 |[46](leetcode46.go)|全排列|回溯法|2019-06-25|
 |[141](leetcode141.go)|环形链表|快慢指针|2019-07-04|
 |[142](leetcode142.go)|环形链表II|快慢指针|2019-07-04|
@@ -9,6 +10,18 @@
 |[232](leetcode232.go)|用栈实现队列|无|2019-07-06|
 |[130](leetcode130.go)|被围绕的区域|dfs|2019-07-29|
 |[228](leetcode228.go)|汇总区间|无|2019-07-30|
+
+###### 5 最长回文字串
+
+动态规划的解法，dp[l][r] 表示字符串 l 到 r 的字串能组成一个回文串。
+
+递推公式：
+
+```
+dp[l][r] = (s[l] == s[r] && (l - r >= -2 || dp[l + 1][r - 1]))
+```
+
+[参考链接](https://leetcode-cn.com/problems/longest-palindromic-substring/solution/zhong-xin-kuo-san-dong-tai-gui-hua-by-liweiwei1419/)
 
 ###### 142 环形链表
 
