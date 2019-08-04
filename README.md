@@ -8,4 +8,4 @@
 
 ### go
 
-[leetcode][go_algorithm/src/leetcode/README.md]
+[leetcode](go_algorithm/src/leetcode/README.md)
