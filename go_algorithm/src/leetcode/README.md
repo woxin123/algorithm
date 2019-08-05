@@ -3,6 +3,7 @@
 |题号|题目|解法|时间|
 ----|----|---|---|
 |[5](leetcode5.go)|最长回文字串|动态规划|2019-08-04|
+|[9](leetcode9/leetcode9.go)|回文数|无|2019-08-05|
 |[46](leetcode46.go)|全排列|回溯法|2019-06-25|
 |[141](leetcode141.go)|环形链表|快慢指针|2019-07-04|
 |[142](leetcode142.go)|环形链表II|快慢指针|2019-07-04|
@@ -22,6 +23,10 @@ dp[l][r] = (s[l] == s[r] && (l - r >= -2 || dp[l + 1][r - 1]))
 ```
 
 [参考链接](https://leetcode-cn.com/problems/longest-palindromic-substring/solution/zhong-xin-kuo-san-dong-tai-gui-hua-by-liweiwei1419/)
+
+###### 6 回文数
+
+利用数字转换成字符串求解，当然还有直接用数字的解法。
 
 ###### 142 环形链表
 
